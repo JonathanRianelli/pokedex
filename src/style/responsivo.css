@@ -1,0 +1,84 @@
+@media (max-width: 810px) {
+    body {
+        font-size: 12px;
+    }
+
+    .pokedex {
+        padding: 30px 20px;
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .cartao-pokemon {
+        max-width: 300px;
+        margin-left: 0;
+    }
+
+    .cartao-topo {
+        padding: 15px 25px 0;
+        background: url(../img/pokebola.png) top center /65% no-repeat;
+        background-position-y: 10px;
+    }
+
+    .cartao-imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cartao-informacoes {
+        padding: 60px 30px 20px;
+        margin-top: -50px;
+    }
+
+    .status ul li, .habilidades ul li {
+        font-size: 13px;
+    }
+
+    .informacoes {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .informacoes h3 {
+        font-size: 16px;
+    }
+
+    .listagem {
+        max-width: 300px;
+    }
+
+    .listagem ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .pokemon {
+        width: 140px;
+        border-radius: 30px;
+        margin-bottom: 0;
+    }
+
+    .pokemon span {
+        display: block;
+        text-align: center;
+        padding: 0;
+        width: 80px;
+    }
+}
+
+@media (max-width: 560px) {
+    .pokedex {
+        padding: 30px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listagem ul {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 8px;
+    }
+}
