@@ -8,8 +8,8 @@
 
 .cartao-topo {
     padding: 20px 30px 0;
-    background: url(../img/pokebola.png) top center /80% no-repeat; 
-    background-position-y: 16px;
+    background: url('../img/pokebola.png') top center /70% no-repeat; 
+    background-position-y: 15%;
 }
 
 .nome {
