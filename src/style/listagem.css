@@ -29,14 +29,16 @@
     transition: .5s;
 }
 
-.aberto .cartao-topo
-
 .pokemon span {
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 80px;
 }
 
 .eletrico.ativo {
-    background-color:#f8d030;
+    background-color: #f8d030;
 }
 
 .grama.ativo {
@@ -44,17 +46,17 @@
 }
 
 .fogo.ativo {
-    background-color:#F08030;
+    background-color: #F08030;
 }
 
 .agua.ativo {
-    background-color:#6890F0;
+    background-color: #6890F0;
 }
 
 .fantasma.ativo {
-    background-color:#493963;
+    background-color: #493963;
 }
 
 .dragao.ativo {
-    background-color:#7038F8;
+    background-color: #7038F8;
 }

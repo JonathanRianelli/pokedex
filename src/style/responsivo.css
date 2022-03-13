@@ -60,13 +60,6 @@
         border-radius: 30px;
         margin-bottom: 0;
     }
-
-    .pokemon span {
-        display: block;
-        text-align: center;
-        padding: 0;
-        width: 80px;
-    }
 }
 
 @media (max-width: 560px) {
